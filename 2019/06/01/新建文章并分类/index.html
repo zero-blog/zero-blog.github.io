@@ -18,10 +18,18 @@
     <link rel="dns-prefetch" href="zero-blog.github.io.git">
     <!--SEO-->
 
-    <meta name="keywords" content>
+    <meta name="keywords" content="Hexo">
 
 
-    <meta name="description" content>
+    <meta name="description" content="1. 创建文件.
+方式一： hexo new “hexo教程” 
+
+方式二：
+在博客目录下的 source 之中的 _posts 的文件夹中创建 *.md
+
+
+
+2. 新建文章，拟定标题并分类....">
 
 
 
@@ -33,7 +41,7 @@
     <!--Title-->
 
 
-<title>分类: 前端 | Action</title>
+<title>Hexo新建文章，拟定标题并分类 | Action</title>
 
 
     <link rel="alternate" href="/atom.xml" title="Action" type="application/atom+xml">
@@ -128,46 +136,130 @@
     <section class="content-wrap">
         <div class="container">
             <div class="row">
-                <main class="col-md-8 main-content ">
-                    <ol class="breadcrumb">
+                <main class="col-md-8 main-content m-post">
+                    <p id="process"></p>
+<article class="post">
+    <div class="post-head">
+        <h1 id="Hexo新建文章，拟定标题并分类">
+            
+	            Hexo新建文章，拟定标题并分类
+            
+        </h1>
+        <div class="post-meta">
     
-    
-        <li>
-            前端
-        </li>
+        <span class="categories-meta fa-wrap">
+            <i class="fa fa-folder-open-o"></i>
+            <a class="category-link" href="/categories/关于Hexo博客/">关于Hexo博客</a>
+        </span>
     
 
-</ol>
+    
+        <span class="fa-wrap">
+            <i class="fa fa-tags"></i>
+            <span class="tags-meta">
+                
+                    <a class="tag-link" href="/tags/Hexo/">Hexo</a>
+                
+            </span>
+        </span>
+    
 
-
-    <article class="post">
+    
         
-        <div class="post-content">
-            <div class="post-head home-post-head">
-                <h1 class="post-title">
-                    <a href="/2019/06/01/图片遮挡/">图片遮挡层</a>
-                </h1>
-                <div class="post-meta">  &bull;
-                    <time class="post-date" datetime title>
-                        2019年06月01日
-                    </time>
-                </div>
-            </div>
-            <p class="brief">
-                
-                    题目说明：
-给一张图片添加遮挡层；
-遮挡层透明悬浮；
-点击查看图...
-                
-            </p>
+        <span class="fa-wrap">
+            <i class="fa fa-clock-o"></i>
+            <span class="date-meta">2019/06/01</span>
+        </span>
+        
+            <span class="fa-wrap">
+                <i class="fa fa-eye"></i>
+                <span id="busuanzi_value_page_pv"></span>
+            </span>
+        
+    
+</div>
+            
+            
+    </div>
+    
+    <div class="post-body post-content">
+        <h3 id="1-创建文件"><a href="#1-创建文件" class="headerlink" title="1. 创建文件."></a>1. 创建文件.</h3><ul>
+<li><p>方式一：<br> hexo new “hexo教程” </p>
+</li>
+<li><p>方式二：</p>
+<p>在博客目录下的 source 之中的 _posts 的文件夹中创建 *.md</p>
+</li>
+</ul>
+<hr>
+<h3 id="2-新建文章，拟定标题并分类"><a href="#2-新建文章，拟定标题并分类" class="headerlink" title="2. 新建文章，拟定标题并分类."></a>2. 新建文章，拟定标题并分类.</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: title # 文章标题.</span><br><span class="line">date:  # 文章生成时间,可省略.</span><br><span class="line">categories: # 文章分类目录，可省略.</span><br><span class="line">tags: # 文章标签,不建议省略，可有多个标签.</span><br><span class="line">description: # 文章的描述，可省略. </span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<hr>
+<ol start="3">
+<li>—  这个符号是前后都必须有，而且是三个一起哦，之后就可以写文章了内容了.</li>
+</ol>
+<hr>
+<h3 id="4-执行-hexo-命令"><a href="#4-执行-hexo-命令" class="headerlink" title="4. 执行 hexo 命令."></a>4. 执行 hexo 命令.</h3><ul>
+<li>hexo clean    清空资源文件，可选操作</li>
+<li>hexo g    重新生成资源文件</li>
+<li>hexo server    本地发布文章，默认端口4000</li>
+<li>hexo s -p 5000  或者给定端口5000，端口可改</li>
+<li>本地发布文章后，查看效果：<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> </li>
+<li>如果端口改了，查看效果时，端口也要改</li>
+<li>hexo deploy    发布文章到 github</li>
+<li>查看个人博客效果</li>
+</ul>
+
+    </div>
+    
+    <div class="post-footer">
+        <div>
+            
+                转载声明：商业转载请联系作者获得授权,非商业转载请注明出处 © <a href target="_blank">zero</a>
+            
         </div>
-    </article>
- 
+        <div>
+            
+        </div>
+    </div>
+</article>
+
+<div class="article-nav prev-next-wrap clearfix">
+    
+    
+        <a href="/2019/06/01/图片遮挡/" class="next-post btn btn-default" title="图片遮挡层">
+            <span class="hidden-lg">下一篇</span>
+            <span class="hidden-xs">图片遮挡层</span><i class="fa fa-angle-right fa-fw"></i>
+        </a>
+    
+</div>
 
 
+    <div id="comments">
+        
+	
+    <div id="vcomments" class="valine"></div>
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="/assets/valine.min.js"></script>
+
+    <script>
+        new Valine({
+            av: AV,
+            el: '#vcomments',
+            appId: 'xOKV9J4UeQAtVkvnJC7Kq2Jn-gzGzoHsz',
+            appKey: 'erIpQac4azoCmgfBB7Dl9maa',
+            placeholder: '说点什么吧',
+            notify: false,
+            verify: true,
+            avatar: 'mm',
+            meta: 'nick,mail'.split(','),
+            pageSize: '10',
+            path: window.location.pathname,
+            lang: 'zh-CN'.toLowerCase()
+        })
+    </script>
 
 
+    </div>
 
 
 
@@ -175,109 +267,14 @@
 
                 </main>
                 
-                    
-    <aside class="col-md-4 sidebar">
-        
-        
+                    <aside id="article-toc" role="navigation" class="col-md-4">
     <div class="widget">
-        <h3 class="title">搜索</h3>
-        <div id="search-form">
-            <div id="result-mask" class="hide"></div>
-            <div class="search-area">
-                
-                    <input id="search-key" type="search" autocomplete="off" placeholder="搜点什么呢？">
-                    <button type="button" class="search-form-submit" id="search-local">站内搜索</button>
-                
-                
-            </div>
-            <div id="result-wrap" class="hide">
-                <div id="search-result"></div>
-            </div>
-            <div class="hide">
-                <template id="search-tpl">
-                    <div class="item">
-                        <a href="/{path}" title="{title}">
-                            <div class="title">{title}</div>
-                            <div class="content">{content}</div>
-                        </a>
-                    </div>
-                </template>
-            </div>
-        </div>
-    </div>
-
+        <h3 class="title">文章目录</h3>
         
-        
-        
-        
-    <div class="widget">
-      <h3 class="title">社交</h3> 
-        <div class="content social">
-            
-	            <a href="https://zero-blog.github.io/" rel="external nofollow" title="Github" target="_blank">
-			    	<i class="git fa fa-git"></i>
-			    </a>
-            
-	            <a href="/" rel="external nofollow" title="联系QQ" target="_blank">
-			    	<i class="qq fa fa-qq"></i>
-			    </a>
-            
-	            <a href="/" rel="external nofollow" title="微信" target="_blank">
-			    	<i class="weixin fa fa-weixin"></i>
-			    </a>
-            
-	            <a href="/" rel="external nofollow" title="QQ群" target="_blank">
-			    	<i class="users fa fa-users"></i>
-			    </a>
-            
-        </div>
-    </div>
-
-
-        
-        
-    <div class="widget">
-        <h3 class="title">分类</h3>
-        <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/关于Hexo博客/"><i class="fa" aria-hidden="true">关于Hexo博客</i></a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/前端/"><i class="fa" aria-hidden="true">前端</i></a><span class="category-list-count">1</span></li></ul>
-    </div>
-
-
-        
-        
-    <div class="widget">
-        <h3 class="title">归档</h3>
-        <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/06/"><i class="fa" aria-hidden="true">2019年06月</i></a><span class="archive-list-count">2</span></li></ul>
-    </div>
-
-
-        
-        
-  <div class="widget">
-    <h3 class="title">标签云</h3>
-    <div class="content tag-cloud">
-        
-            <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/tags/图片/" style="font-size: 10px;">图片</a>
+            <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-创建文件"><span class="toc-text">1. 创建文件.</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-新建文章，拟定标题并分类"><span class="toc-text">2. 新建文章，拟定标题并分类.</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-执行-hexo-命令"><span class="toc-text">4. 执行 hexo 命令.</span></a></li></ol>
         
     </div>
-  </div>
-
-
-        
-        
-    <div class="widget">
-        <h3 class="title">友链</h3>
-        <div class="content friends-link">
-        
-            <a href="https://hexo.io/zh-cn/" class="fa" target="_blank">Hexo官网</a>
-        
-        </div>
-    </div>
-
-
-        
-        
-        
-    </aside>
+</aside>
 
                 
             </div>
@@ -329,8 +326,6 @@
     </div>
 </div>
 
-
-	<script src="/js/search.js?rev=@@hash"></script>
 
 
 

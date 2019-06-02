@@ -18,18 +18,13 @@
     <link rel="dns-prefetch" href="zero-blog.github.io.git">
     <!--SEO-->
 
-    <meta name="keywords" content="Hexo">
+    <meta name="keywords" content="爬虫">
 
 
-    <meta name="description" content="1. 创建文件.
-方式一： hexo new “hexo教程” 
-
-方式二：
-在博客目录下的 source 之中的 _posts 的文件夹中创建 *.md
-
-
-
-2. 新建文章，拟定标题并分类....">
+    <meta name="description" content="为什么要学爬虫
+可以私人定制一个搜索引擎，并且可以对搜索引擎的数据采集工作原理进行更深层次的理解。
+大数据时代，要进行数据分析，学习爬虫，可以按我们的目的进行采集。
+对于很多SEO从业者来说，学...">
 
 
 
@@ -41,7 +36,7 @@
     <!--Title-->
 
 
-<title>Hexo新建文章，拟定标题并分类 | Action</title>
+<title>pathon爬虫 | Action</title>
 
 
     <link rel="alternate" href="/atom.xml" title="Action" type="application/atom+xml">
@@ -140,16 +135,16 @@
                     <p id="process"></p>
 <article class="post">
     <div class="post-head">
-        <h1 id="Hexo新建文章，拟定标题并分类">
+        <h1 id="pathon爬虫">
             
-	            Hexo新建文章，拟定标题并分类
+	            pathon爬虫
             
         </h1>
         <div class="post-meta">
     
         <span class="categories-meta fa-wrap">
             <i class="fa fa-folder-open-o"></i>
-            <a class="category-link" href="/categories/关于Hexo博客/">关于Hexo博客</a>
+            <a class="category-link" href="/categories/python/">python</a>
         </span>
     
 
@@ -158,7 +153,7 @@
             <i class="fa fa-tags"></i>
             <span class="tags-meta">
                 
-                    <a class="tag-link" href="/tags/Hexo/">Hexo</a>
+                    <a class="tag-link" href="/tags/爬虫/">爬虫</a>
                 
             </span>
         </span>
@@ -168,7 +163,7 @@
         
         <span class="fa-wrap">
             <i class="fa fa-clock-o"></i>
-            <span class="date-meta">2019/06/01</span>
+            <span class="date-meta">2019/06/02</span>
         </span>
         
             <span class="fa-wrap">
@@ -183,31 +178,15 @@
     </div>
     
     <div class="post-body post-content">
-        <h3 id="1-创建文件"><a href="#1-创建文件" class="headerlink" title="1. 创建文件."></a>1. 创建文件.</h3><ul>
-<li><p>方式一：<br> hexo new “hexo教程” </p>
-</li>
-<li><p>方式二：</p>
-<p>在博客目录下的 source 之中的 _posts 的文件夹中创建 *.md</p>
-</li>
-</ul>
-<hr>
-<h3 id="2-新建文章，拟定标题并分类"><a href="#2-新建文章，拟定标题并分类" class="headerlink" title="2. 新建文章，拟定标题并分类."></a>2. 新建文章，拟定标题并分类.</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: title # 文章标题.</span><br><span class="line">date:  # 文章生成时间,可省略.</span><br><span class="line">categories: # 文章分类目录，可省略.</span><br><span class="line">tags: # 文章标签,不建议省略，可有多个标签.</span><br><span class="line">description: # 文章的描述，可省略. </span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<hr>
-<ol start="3">
-<li>—  这个符号是前后都必须有，而且是三个一起哦，之后就可以写文章了内容了.</li>
+        <h1 id="为什么要学爬虫"><a href="#为什么要学爬虫" class="headerlink" title="为什么要学爬虫"></a>为什么要学爬虫</h1><ol>
+<li>可以私人定制一个搜索引擎，并且可以对搜索引擎的数据采集工作原理进行更深层次的理解。</li>
+<li>大数据时代，要进行数据分析，学习爬虫，可以按我们的目的进行采集。</li>
+<li>对于很多SEO从业者来说，学习爬虫，可以更深层次地理解搜索引擎爬虫的工作原理，从而可以更好地进行搜索引擎优化。</li>
 </ol>
-<hr>
-<h3 id="4-执行-hexo-命令"><a href="#4-执行-hexo-命令" class="headerlink" title="4. 执行 hexo 命令."></a>4. 执行 hexo 命令.</h3><ul>
-<li>hexo clean    清空资源文件，可选操作</li>
-<li>hexo g    重新生成资源文件</li>
-<li>hexo server    本地发布文章，默认端口4000</li>
-<li>hexo s -p 5000  或者给定端口5000，端口可改</li>
-<li>本地发布文章后，查看效果：<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> </li>
-<li>如果端口改了，查看效果时，端口也要改</li>
-<li>hexo deploy    发布文章到 github</li>
-<li>查看个人博客效果</li>
-</ul>
+<h1 id="爬虫分类"><a href="#爬虫分类" class="headerlink" title="爬虫分类"></a>爬虫分类</h1><h2 id="1-通用爬虫"><a href="#1-通用爬虫" class="headerlink" title="1. 通用爬虫"></a>1. 通用爬虫</h2><p>通用爬虫又被称作全网爬虫，它所爬取的目标数据是巨大的，而且爬行的范围也是非常大，由于其爬去的数据是海量的数据，故而对于这类爬虫的来说，其爬取的性能要求是非常高的。主要应用于大型搜索引擎中，有非常高的应用价值。</p>
+<h2 id="2-聚焦爬虫"><a href="#2-聚焦爬虫" class="headerlink" title="2. 聚焦爬虫"></a>2. 聚焦爬虫</h2><p>聚焦爬虫也叫主题爬虫，是按照预先定义好的主题有选择的进行网页爬取的，它将爬去取的目标定位在于主题相关的页面中，可以大大节省爬虫爬去时所需的带宽资源和服务器资源。聚焦爬虫主要应用在特定信息爬取中，主要为某一类特定的人群提供服务。</p>
+<h2 id="3-增量爬虫"><a href="#3-增量爬虫" class="headerlink" title="3. 增量爬虫"></a>3. 增量爬虫</h2><p>增量爬虫，对应着增量式更新，更新的时候只更新改变的地方，而未改变的地方则不更新。在一定程度上能够保证所爬取的页面，尽可能是新页面。</p>
+<h2 id="4-深层爬虫"><a href="#4-深层爬虫" class="headerlink" title="4. 深层爬虫"></a>4. 深层爬虫</h2><p>深层爬虫，可以爬取互联网中的深层页面。在互联网中，网页按存在方式分类，可以分为表层页面和深层页面。表层页面，指的是不需要提交表单，使用静态链接就能够到达的静态页面；而深层页面则隐藏在表单后面，不能通过静态链接直接获取，是需要一定的关键词之后才能获取到的页面。在互联网中，深层页面的数量往往比表层页面的数量要多很多。</p>
 
     </div>
     
@@ -225,15 +204,10 @@
 
 <div class="article-nav prev-next-wrap clearfix">
     
-        <a href="/2019/06/02/python爬虫/" class="pre-post btn btn-default" title="pathon爬虫">
-            <i class="fa fa-angle-left fa-fw"></i><span class="hidden-lg">上一篇</span>
-            <span class="hidden-xs">pathon爬虫</span>
-        </a>
     
-    
-        <a href="/2019/06/01/图片遮挡/" class="next-post btn btn-default" title="图片遮挡层">
+        <a href="/2019/06/01/新建文章并分类/" class="next-post btn btn-default" title="Hexo新建文章，拟定标题并分类">
             <span class="hidden-lg">下一篇</span>
-            <span class="hidden-xs">图片遮挡层</span><i class="fa fa-angle-right fa-fw"></i>
+            <span class="hidden-xs">Hexo新建文章，拟定标题并分类</span><i class="fa fa-angle-right fa-fw"></i>
         </a>
     
 </div>
@@ -276,7 +250,7 @@
     <div class="widget">
         <h3 class="title">文章目录</h3>
         
-            <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-创建文件"><span class="toc-text">1. 创建文件.</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-新建文章，拟定标题并分类"><span class="toc-text">2. 新建文章，拟定标题并分类.</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-执行-hexo-命令"><span class="toc-text">4. 执行 hexo 命令.</span></a></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#为什么要学爬虫"><span class="toc-text">为什么要学爬虫</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#爬虫分类"><span class="toc-text">爬虫分类</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-通用爬虫"><span class="toc-text">1. 通用爬虫</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-聚焦爬虫"><span class="toc-text">2. 聚焦爬虫</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-增量爬虫"><span class="toc-text">3. 增量爬虫</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-深层爬虫"><span class="toc-text">4. 深层爬虫</span></a></li></ol></li></ol>
         
     </div>
 </aside>
